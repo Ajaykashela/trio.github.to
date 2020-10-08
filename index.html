@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>trio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 
-	<p>Ng is nub</p>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Trio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.youtube.com/channel/UCsAR3NWArWhL7Vx9sSIp80A">YouTube</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#Round1">1stRound</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#Round2">2ndRound</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#Round1">3rdRound</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://chat.whatsapp.com/IQoLjzzaaqPFVuVmTsjwLC" tabindex="-1">Whatsapp</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="card text-center">
+  <div class="card-header">
+   Trio tourney hosted by Ng and Rebel
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Teams are</h5>
+    <p class="card-text">T1_Alex_Drag_agent<br>
+T2_Blackstrom_Poisan_aroze<br>
+T3_jenne_Lost_Stylo<br>
+T4_Brutal_BrutalJr_Slave<br>
+T5_Time_taste_Mohit<br>
+T6_Ak47_blackmafia_hunter<br>
+T7_Ace_bhagwa_hyperstorme<br>
+T8_zeyrox_walter_lense<br><br>
+
+whatsapp group link is here,
+</p>
+    <a href="https://chat.whatsapp.com/IQoLjzzaaqPFVuVmTsjwLC" class="btn btn-primary">Whatsapp</a>
+  </div>
+  <div class="card-footer text-muted">
+   last update: today  2:21 PM
+  </div>
+</div>
+
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" id="Round1"  type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Round1(tap on me)
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Fixtures Tonight
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" id="Round2" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Round2
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        nothing to show here ...because round 1 isn't completed yet   :/
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" id="Round3" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Round3
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        nothing to show here ...because round 1 and 2 aren't completed yet   :/
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="card matches">
+  <h5 class="card-header bg-primary">LeL SoN No Rush</h5>
+  <div class="card-body">
+    <h5 class="card-title">Made by Ajay</h5>
+    <p class="card-text">
+    	i will try to upload all matches SS <br>
+
+    	<br>I was bored so <br> I made this website  :)))))</p>
+  </div>
+</div>
+
+
+
+
 
 </body>
 </html>
